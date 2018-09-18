@@ -58,6 +58,8 @@ Bundle 'nvie/vim-togglemouse'
 
 "----------------------------------------
 " Syntax/Indent for language enhancement
+" Bundle 'vim-python/python-syntax'
+Bundle 'hdima/python-syntax'
 "----------------------------------------
 "------- web backend ---------
 Bundle '2072/PHP-Indenting-for-VIm'

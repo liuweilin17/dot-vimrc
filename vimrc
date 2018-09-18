@@ -300,3 +300,6 @@ endfunc
 "F1 整体排版 ("visual选择 + =)
 :map <F1> <ESC>ggvG=
 "左右居中对齐 (命令行模式 line1,line2 [left, right]) 或者 visual选择 + [<>]
+
+"python systax
+let g:python_highlight_all = 1
