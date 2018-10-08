@@ -303,3 +303,9 @@ endfunc
 
 "python systax
 let g:python_highlight_all = 1
+
+"nerd tree
+"esc+[number] : switch tab
+"ctr+w : change window multitimes
+":bd<Cr><Cr> : close tab
+":qa! : close all tabs
