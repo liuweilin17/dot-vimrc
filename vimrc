@@ -65,7 +65,7 @@ autocmd FileType coffee,javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
 autocmd FileType html,htmldjango,xhtml,haml setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
 autocmd FileType sass,scss,css setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
 
 " syntax support
@@ -150,7 +150,7 @@ let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 " let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
-let NERDTreeWinPos = "right"
+let NERDTreeWinPos = "left"
 
 " nerdcommenter
 let NERDSpaceDelims=1
@@ -308,5 +308,5 @@ let g:python_highlight_all = 1
 "nerd tree
 "esc+[number] : switch tab
 "ctr+w : change window multitimes
-":bd<Cr><Cr> : close tab
+":bd[enter][enter] : close tab
 ":qa! : close all tabs
